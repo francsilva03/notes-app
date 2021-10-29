@@ -45,7 +45,7 @@ app.use(
     secret: "secret",
     resave: true,
     saveUninitialized: true,
-    store: MongoStore.create({ mongoUrl: config.MONGODB_URI }),
+    store: new MongoStore({ mongoUrl: config.MONGODB_URI }),
   })
 );
 app.use(passport.initialize());
