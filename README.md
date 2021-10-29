@@ -4,10 +4,6 @@ In this application, we can appreciate the use of user registration and login, p
 
 
 
-
-Visit: https://expressjs-facs01.herokuapp.com/
-
-
 Test user: 
 
 facs01@localhost
