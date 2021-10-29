@@ -5,5 +5,5 @@ In this application, we can appreciate the use of user registration and login, p
 
 Test user: 
 
-facs@localhost
+facs01@localhost
 adminpassword
