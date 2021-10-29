@@ -24,25 +24,21 @@
 
       <ul class="navbar-nav ml-auto">
         {{#if user}}
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Notes
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/notes">All Notes</a>
-              <a class="dropdown-item" href="/notes/add">Add A Note</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="/users/logout">Logout</a>
-            </div>
+        <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Notes
+    </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li>
+            <a class="dropdown-item" href="/notes">All Notes</a>
           </li>
+           <li>
+            <a class="dropdown-item" href="/notes/add">Add A Note</a>
+          </li>
+           <li>
+            <a class="dropdown-item" href="/users/logout">Logout</a>
+          </li>
+
         {{else}}
 
           <li class="nav-item">
